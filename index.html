@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Redirect</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var links = [
+                "https://docs.google.com/forms/d/e/1FAIpQLSdke_CgKyqGZwcQ93uW4QlGiI-j8g2iNgwGpLreSLcfd0-5_Q/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLSej2ePS1GUb9MVmOumLZdxJq4_bs6BeYawfTHAIBU76lHMg9A/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLSckWYy-ISJWMCqGOaznfbq90yrd5H6ZIVyzkx2l89pUkg5oKw/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLSen4LK0RZFpufrFfvZ_TZ1iTcWNraRRXWuecaMZ8Cpm2-t-VA/viewform?usp=sf_link"
+            ];
+            var randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex];
+        };
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
